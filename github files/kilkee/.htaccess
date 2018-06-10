@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Password Protected Area"
+AuthUserFile /customers/3/d/a/alisekuznecova.eu/httpd.www/KEA/kilkee/.htpasswd
+Require valid-user

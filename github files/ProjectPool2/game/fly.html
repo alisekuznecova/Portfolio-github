@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fly</title>
+ <style>
+     #fly{
+         display:block;
+         max-width:80px;
+         position:absolute;
+         top:40vh;
+         left:45vw;
+         cursor:pointer;
+         transition:.05s;
+     }
+     #box{
+         display:block;
+         font-size:20pt;
+         text-align:center;
+         border:0.5px solid #ccccff;
+         border-radius: 20px;
+         width:200px;
+         height:70px;
+         margin-top:50px
+     }
+     p{
+         margin:auto;
+         padding-top:30px
+     }
+    </style>
+
+</head>
+
+<body>
+   <p id="box"></p>
+<img id="fly" src="fly1.png">
+    <audio id="buzz" preload="auto" loop>
+    <source src="sounds/buzz.wav" type="audio/mpeg"></audio>
+<audio id="smack" preload="auto">
+    <source src="sounds/smack.wav" type="audio/mpeg"></audio>
+
+<script>
+    const body=document.querySelector("body");
+    const fly=document.querySelector("#fly");
+    const buzz=document.querySelector("#buzz");
+    const smack=document.querySelector("#smack");
+    
+    
+    let paused=true;
+    let intv;
+    let speed=1000;
+    
+    fly.addEventListener("click", toggle)
+    document.getElementById("box").innerHTML="Smack the fly!";
+    function toggle(){
+        if(paused){
+            console.log("start");
+            moveFly();
+            intv=setInterval(moveFly, speed);
+            buzz.play();
+            fly.src="fly1.png";
+            paused=false;
+           document.getElementById("box").innerHTML="Smack the fly!";
+        }
+        else{
+            console.log("stop");
+            clearInterval(intv);
+            smack.play();
+            buzz.pause();
+            fly.src="dead-fly.png";
+            paused=true;
+            document.getElementById("box").innerHTML="You rock!Again!";
+        }
+    }
+    
+    function moveFly(){
+        fly.style.left=Math.random()*90+"vw";
+        fly.style.top=Math.random()*90+"vh";
+    }
+    
+    </script>
+</body>
+
+</html>

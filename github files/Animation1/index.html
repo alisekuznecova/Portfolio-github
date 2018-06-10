@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <style>
+        *{
+            box-sizing:border-box;
+        }
+  #girl{
+    width:85px;
+    height:170px;
+    background-image:url(img/meg.png);
+      background-size: cover;
+        animation: walk 0.8s steps(8) infinite;
+
+   
+}
+
+        
+        #girl{
+            display:block;
+            margin-left:400px;
+            margin-top:360px;
+        
+            
+        } 
+      
+        @keyframes walk{
+            to{
+                background-position: -970px 0px;
+            }
+        }
+        background{
+            padding-top:350px;
+        }
+    
+        img{
+
+            display:block;
+            max-width:100%;
+            margin-left:auto;
+            margin-right:auto;
+            padding-top:110px
+        }
+        
+        #fons{
+           width:900px;
+    height:590px;
+    background-image:url(img/fons2.png); 
+            position: absolute;
+    top: 30px;
+    z-index: -1;
+            animation:movebg 100s linear normal infinite;
+        }
+        @keyframes movebg{
+            to{
+                background-position: -8000px
+            }
+        }
+    
+    </style>
+
+
+</head>
+
+<body>
+
+  <div id="girl">
+    
+    </div>  
+    
+    <div id="fons">
+    
+    </div>
+   
+<img src="img/final.png">
+
+
+    </body>
+    
+   
+</html>

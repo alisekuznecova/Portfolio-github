@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+
+
+button{
+    font-family: 'Amatic SC', cursive;
+    font-size:14pt;
+    width:70px;
+    height:35px;
+    border-radius: 15px;
+    text-align: center;
+
+}
+h1{
+    display:block;
+    position:absolute;
+    top:10px;
+    left:550px;
+    font-family: 'Amatic SC', cursive;
+    
+}
+p{
+    display:block;
+    position:absolute;
+    top:60px;
+    left:550px;
+    font-family: 'Amatic SC', cursive;
+    
+}
+.allb{
+    display:block;
+    padding-top:0px
+}
+#jumpfBtn,#fatBtn, #move30Btn{
+    height:50px
+}
+#Btnwrap{
+    position:absolute;
+    top:10px;
+    left:48px;
+}
+#wrapper{
+    background-image:url("img/Untitled-1.png");
+    width:850px;
+    height:470px;
+    margin:auto;
+    padding-top:150px;
+    margin-top:50px;
+    position: relative;
+}
+
+#bear{
+    display:block;
+    max-width:18%;
+    position:absolute;
+    bottom:150px;
+    left:280px   
+}
+
+#bear.move{
+    animation:move 1s alternate infinite;
+    transition-timing-function: 1s cubic-bezier(.3,.13,.38,1) 
+}
+@keyframes move{
+   
+    100%{
+        transform:translate(300px);
+    }
+}
+#bear.pulsate{
+    animation:pulsate 1.5s infinite alternate;
+    transition-timing-function: cubic-bezier(.97,.01,1,1);
+}
+
+
+@keyframes pulsate{
+    to{
+         transform: scale(.3);
+    }
+}
+
+#bear.spinleft{
+    animation: spinleft 3s linear infinite;
+}
+@keyframes spinleft{
+    to{
+        transform:rotate(-360deg)
+    }
+}
+
+#bear.move30{
+    animation: move30 1s linear;
+    animation-fill-mode:forwards
+}
+@keyframes move30{
+   
+    100%{
+        transform:translate(100px,50px)
+    
+    }
+}
+
+#bear.jump{
+    animation: jump 3s infinite;
+    transition-timing-function: cubic-bezier(0,.58,.57,.1)
+    
+}
+@keyframes jump{
+    10%{
+        transform:scale(1.2,0.8)
+    }
+    50%{
+        transform:translateY(-100px)
+    }
+    100%{
+        transform:translateY(0px);
+       
+    }
+}
+#bear.dissapear{
+    animation: dissapear 2s linear;
+    animation-fill-mode:forwards
+}
+@keyframes dissapear{
+    to{
+        opacity:0
+    }
+}
+
+#bear.flip{
+    animation: flip 3s linear alternate infinite;
+}
+@keyframes flip{
+    to{
+        transform:rotateY(180deg)
+    }
+}
+
+#bear.fat{
+    animation: fat 3s linear ;
+    animation-fill-mode:forwards
+}
+@keyframes fat{
+    to{
+        transform:scaleX(2)
+    }
+}
+
+#bear.jumpf{
+    animation: jumpf 2s linear alternate;
+    animation-fill-mode:forwards
+}
+@keyframes jumpf{
+   
+    50%{
+        transform:translate(100px,-100px);
+    }
+    100%{
+        transform:translate(200px,0px)
+    }
+}
+
+#bear.shake{
+    animation: shake 1s linear ;
+}
+@keyframes shake{
+   10%, 90% {
+    transform: translateX(-1px)
+  }
+  
+  20%, 80% {
+    transform: translateX(2px)
+  }
+
+  30%, 50%, 70% {
+    transform: translateX(-4px)
+  }
+
+  40%, 60% {
+    transform: translateX(4px)
+  }
+}

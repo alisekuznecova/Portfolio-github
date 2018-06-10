@@ -1,0 +1,1768 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:200');
+
+@import url('https://fonts.googleapis.com/css?family=Assistant:200');
+
+
+
+h1 {
+    font-size: 50px;
+    color: #bf9000;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    margin-top: 3px;
+    margin-bottom: 1px;
+}
+
+.dizc {
+    display: block;
+    padding-top: 30px
+}
+
+.current{
+    text-decoration:underline
+}
+#arrow {
+    display: block;
+    max-width: 10px;
+    position: absolute;
+    padding-top: 17px;
+    padding-left: 10px
+}
+
+h2 {
+    color: #61605F;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    margin-top: 3px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-right: 10px;
+    padding-left: 10px
+}
+
+p {
+    text-align: justify;
+    color: #7B7A79;
+    font-family: 'Assistant', sans-serif;
+    text-indent: 10px;
+    list-style-type: square;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px
+}
+
+.center-justified {
+    text-align: justify;
+    margin: 0 auto;
+    width: 30em;
+}
+
+#profile {
+
+    text-align: center;
+    font-size: 30px
+}
+
+ul {
+    text-align: justify;
+    color: #7B7A79;
+    font-family: 'Assistant', sans-serif;
+    text-indent: 10px;
+    list-style-type: square;
+    margin-top: 1px;
+    margin-left: 0px;
+    margin-right: 5px
+}
+
+#nav_diz li {
+    display: block;
+    color: red;
+    font-family: 'Oswald', sans-serif;
+    border-bottom: 1px solid #DDDDDD;
+    text-align: center;
+    padding: 8px 8px;
+}
+
+#modernisms {
+    display: block;
+    width: 300px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#nav_diz {
+    margin: 0;
+    padding: 0;
+}
+
+hr {
+    border: 0.5px solid #DDDDDD;
+}
+
+#nav_diz a {
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Assistant', sans-serif;
+    color: #7B7A79;
+    font-size: 17px;
+}
+
+#nav_diz a:hover {
+    color: #bf9000;
+}
+
+#charasteristics {
+    list-style-type: square;
+    font-family: 'Assistant', sans-serif;
+}
+
+a:hover {
+    color: #bf9000;
+}
+
+image-orientation {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav {
+    text-align: center
+}
+
+nav a {
+    color: #61605F;
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+#menu_bar {
+    font-family: 'Assistant', sans-serif;
+    font-size: 17px;
+    margin-top: 25px;
+    text-align: center;
+    max-height: 200px;
+}
+
+#menu_bar a {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: 'Oswald', sans-serif;
+    border: 1px solid #CBC8C8;
+    border-left: none;
+    border-bottom: none;
+    border-top: none;
+    padding-left: 0px;
+    padding-right: 40px
+}
+
+a#des {
+    border: none
+}
+
+.folderstructure {
+
+    text-align: center;
+    margin-bottom: 0px
+}
+
+#nav_design {
+    font-family: 'Assistant', sans-serif;
+    font-size: 18px;
+    text-align: center
+}
+
+#nav_design a {
+    margin-left: 12px;
+    margin-bottom: 1px;
+    font-family: 'Assistant', sans-serif;
+}
+
+#logo {
+    margin-top: 12px;
+    border-radius: 50%;
+}
+
+.pic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+#profils {
+    margin-bottom: 12px
+}
+
+#modernisms {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.moodboard {
+    text-align: center;
+    display: block;
+    padding-right: 20px
+}
+
+.pictures {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#stils {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 3px;
+    margin-top: 4px
+}
+
+.folders {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px
+}
+
+#assets {
+    text-align: center;
+    margin-bottom: 2px
+}
+
+.image_assets {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+div.as200 img {
+    display: block;
+    max-width: 100px;
+    margin: auto;
+    padding: 10px
+}
+
+div.as450 img {
+    display: block;
+    max-width: 250px;
+    margin: auto;
+    padding: 10px
+}
+
+div.as700 img {
+    display: block;
+    max-width: 300px;
+    margin: auto;
+    padding: 10px
+}
+
+#layout {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+label {
+    box-sizing: border-box;
+}
+
+input {
+    display: none;
+}
+
+nav {
+    max-height: 0;
+    overflow: hidden;
+}
+
+input:checked ~ nav {
+    max-height: 500px;
+}
+
+label {
+    display: none;
+    width: 100%;
+    text-align: center;
+    font-size: 2em;
+}
+
+.full img {
+    display: block;
+    max-width: 70%;
+    margin: auto;
+    padding-top: 50px;
+    position: relative;
+    z-index: 0;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 2fr 4fr 4fr 2fr;
+    grid-template-rows: 1fr 1f 1fr 1fr;
+    background-color: #5C5A5B;
+    grid-template-areas: "header header header header" "logo logo one one" "two two sakums sakums " "footer footer footer footer"
+}
+
+div.logo {
+    grid-area: logo;
+    grid-column: 2/3;
+    grid-row: 2;
+    background-color: #F8F8F8;
+
+}
+
+.logo img {
+    display: block;
+    max-width: 80%;
+    margin: auto;
+    padding-top: 80px;
+    padding-left: 70px;
+
+}
+
+.one {
+    grid-area: one;
+    grid-column: 3/4;
+    grid-row: 2;
+    background-color: #F8F8F8;
+}
+
+.one img {
+    display: block;
+    max-width: 80%;
+    margin: auto;
+    padding-right: 25px;
+    padding-top: 35px;
+
+}
+
+.two {
+    grid-area: two;
+    grid-column: 2/3;
+    grid-row: 3;
+    background-color: #F8F8F8;
+}
+
+.two img {
+    display: block;
+    max-width: 80%;
+    margin: auto;
+    padding-top: 60px;
+    padding-left: 30px
+}
+
+.sakums {
+    grid-area: sakums;
+    grid-column: 3/4;
+    grid-row: 3;
+    background-color: #F8F8F8;
+}
+
+.sakums nav {
+    display: block;
+    max-height: 30%;
+    margin: auto;
+    padding-top: 70px;
+    padding-right: 70px;
+    padding-left: 30px;
+    padding-bottom: 20px
+}
+
+nav.frontpage {
+    max-height: 100%;
+    font-size: 23px;
+    text-align: left;
+    padding-top: 70px;
+}
+
+.header {
+    grid-area: header;
+    grid-column: 1/-1;
+    grid-row: 1;
+}
+
+.footer {
+    grid-area: footer;
+    grid-column: 2/-2;
+    grid-row: 4;
+    height: 100px;
+    background-color: #F8F8F8;
+}
+
+@media all and (max-width:950px) {
+    .wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1f 1fr 1fr;
+        background-color: #5C5A5B;
+        grid-template-areas: "header header" "logo one" "two sakums " "footer footer"
+    }
+
+    .header {
+        grid-area: header;
+        grid-column: 1;
+        grid-row: 1
+    }
+    div.logo {
+        grid-area: logo;
+        grid-column: 1;
+        grid-row: 2;
+    }
+    .logo img {
+        display: block;
+        max-width: 80%;
+    }
+    .one {
+        grid-area: one;
+        grid-column: 2;
+        grid-row: 2
+    }
+
+    .two {
+        grid-area: two;
+        grid-column: 1;
+        grid-row: 3
+    }
+    .sakums {
+        grid-area: sakums;
+        grid-column: 2;
+        grid-row: 3
+    }
+    .footer {
+        grid-area: footer;
+        grid-column: 1/-1;
+        grid-row: 4
+    }
+
+}
+
+@media all and (max-width:620px) {
+    .wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1f 1fr 1fr;
+        background-color: #5C5A5B;
+        grid-template-areas: "header header" "logo one" "two sakums " "footer footer"
+    }
+    .header {
+        grid-area: header;
+        grid-column: 1;
+        grid-row: 1/-1
+    }
+    div.logo {
+        grid-area: logo;
+        grid-column: 1/-1;
+        grid-row: 2;
+    }
+    .logo img {
+        display: block;
+        max-width: 60%;
+        padding: 20px;
+        padding-top: 30px
+    }
+    nav.frontpage {
+        max-height: 100%;
+        font-size: 23px;
+        text-align: center;
+        display: block;
+        padding: 10px
+    }
+    .one {
+        grid-area: one;
+        display: none;
+    }
+    .two {
+        grid-area: two;
+        display: none;
+    }
+    .sakums {
+        grid-area: sakums;
+        grid-column: 1/-1;
+        grid-row: 3
+    }
+    .footer {
+        grid-area: footer;
+        grid-column: 1/-1;
+        grid-row: 4
+    }
+
+}
+
+
+div.wrapper1 {
+    display: grid;
+    background-color: #5C5A5B;
+    grid-template-columns: 2fr 3fr 3fr 3fr 2fr;
+    grid-template-rows: 1fr 1f 1fr 1fr;
+    grid-template-areas: "header_1 header_1 header_1 header_1 header_1" "saturs saturs saturs saturs saturs" "saturs saturs saturs saturs saturs" "kajene kajene kajene kajene kajene"
+}
+
+@media all and (max-width:900px) {
+    .saturs {
+        display: grid;
+        max-width: none;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 0.3fr 0.8fr 0.8fr;
+        grid-template-areas: "augsa augsa " "parstilu parstilu parstilu" "img_style img_style1 img_style2" "uzskait uzskait uzskait" "kajene kajene kajene kajene"
+    }
+    .wrapper1 {
+        display: grid;
+        background-color: #5C5A5B;
+        grid-template-columns: 2fr 3fr 3fr 3fr 2fr;
+        grid-template-rows: 1fr 1r 2fr 1fr;
+        grid-template-areas: "header_1 header_1 header_1 header_1 header_1" "saturs saturs saturs saturs saturs" "saturs saturs saturs saturs saturs" "kajene kajene kajene kajene kajene"
+    }
+}
+
+.saturs {
+    display: grid;
+    max-width: none;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 0.3fr 0.6fr;
+    grid-template-areas: "augsa augsa augsa" "parstilu parstilu parstilu" "img_style img_style1 img_style2" "uzskait uzskait uzskait" "kajene kajene kajene"
+}
+
+.img_style img,
+.img_style1 img,
+.img_style2 img {
+    width: 100%;
+}
+
+.img_style {
+    grid-area: img_style;
+    background-color: #F8F8F8;
+    grid-column: 1/2;
+    grid-row: 3;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+}
+
+.img_style1 {
+    grid-area: img_style1;
+    background-color: #F8F8F8;
+    grid-column: 2/3;
+    grid-row: 3;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+}
+
+.img_style2 {
+    grid-area: img_style2;
+    background-color: #F8F8F8;
+    grid-column: 3/4;
+    grid-row: 3;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: auto;
+}
+
+.parstilu {
+    grid-area: parstilu;
+    background-color: #F8F8F8;
+    grid-column: 1/-1;
+    grid-row: 2;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.uzskait {
+    grid-area: uzskait;
+    background-color: #F8F8F8;
+    grid-column: 1/-1;
+    grid-row: 4;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 5px;
+    display: block;
+    max-width: 100%
+}
+
+.augsa {
+    grid-area: augsa;
+    background-color: #F8F8F8;
+    grid-column: 1/-1;
+    grid-row: 1;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+footer.kajene {
+    grid-area: kajene;
+    grid-row: 4;
+    grid-column: 2/-2;
+    width: 100%;
+}
+
+@media all and (max-width:500px) {
+    div.wrapper1 {
+        display: grid;
+        background-color: #5C5A5B;
+        grid-template-columns: 3fr 3fr;
+        grid-template-rows: 1fr 1f 1fr 1fr 1fr;
+        grid-template-areas: "header_1 header_1" "saturs saturs" "saturs saturs" "kajene kajene"
+    }
+    .header_1 {
+        grid-area: header_1;
+        grid-column: 1
+    }
+    nav#menu_bar a {
+        font-size: 12px;
+    }
+    nav#menu_bar {
+        display: block;
+        padding-left: 25px
+    }
+    nav#menu_bar a {
+        margin-left: 2px;
+        margin-right: 2px;
+        font-family: 'Oswald', sans-serif;
+        border-right: none;
+
+    }
+    main.saturs {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr;
+        grid-template-areas: "augsa" "parstilu" "img_style" "img_style1" "uzskait" "kajene"
+    }
+    .saturs {
+        grid-area: saturs;
+        grid-column: 1
+    }
+    .augsa {
+        grid-area: augsa;
+        grid-column: 1;
+        grid-row: 1
+    }
+    .parstilu {
+        grid-area: parstilu;
+        grid-column: 1;
+        grid-row: 2
+    }
+    .img_style {
+        grid-area: img_style;
+        grid-column: 1;
+        grid-row: 3
+    }
+    .img_style1 {
+        grid-area: img_style1;
+        grid-column: 1;
+        grid-row: 4
+    }
+    .img_style2 {
+        grid-area: img_style2;
+        display: none
+    }
+    div.uzskait {
+        grid-area: uzskait;
+        grid-column: 1;
+        grid-row: 5
+    }
+    .kajene {
+        grid-area: kajene;
+        grid-column: 1;
+        grid-row: 6
+    }
+
+    .wrapper3 {
+        display: grid;
+        background-color: #5C5A5B;
+        grid-template-columns: 3fr;
+        grid-template-rows: 0.2fr 0.5fr 0.5fr 0.5fr;
+        grid-template-areas: "header2" "main_design" "main_design" "main_design" "kajene2"
+    }
+    main.main_design {
+        display: grid;
+        background-color: #F8F8F8;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.1fr 1fr 0.5fr 0.5fr;
+        grid-template-areas: "design" "nav_diz" "flip11" "flip1"
+    }
+    ul#nav_diz {
+        display: block;
+        margin-left: 23px
+    }
+
+    div.nav_diz {
+        grid-area: nav-diz;
+        grid-column: 1/-1;
+        grid-row: 2;
+    }
+    .design {
+        grid-area: design;
+        grid-column: 1/-1;
+        grid-row: 1;
+    }
+    #nav_diz a {
+        display: block;
+        text-align: center
+    }
+    ul #nav_diz li {
+        display: block;
+
+    }
+
+    div.flip11 {
+        grid-area: flip11;
+        grid-column: 1/-1;
+        grid-row: 3;
+    }
+    div.flip1 {
+        grid-area: flip1;
+        display: none;
+        grid-column: 1;
+        grid-row: 4
+    }
+    div.flip11 {
+        display: block;
+        width: 70%;
+        margin: auto;
+        padding-top: 2px
+    }
+}
+
+@media all and (max-width:900px) {
+    .saturs {
+        display: grid;
+        max-width: none;
+        grid-column: 2/4;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 0.3fr 0.5fr 0.5fr 0.8fr;
+        grid-template-areas: "augsa augsa " "parstilu parstilu" "img_style img_style1" "img_style2 img_style2" "uzskait uzskait uzskait" "kajene kajene "
+    }
+    .img_style2 {
+        grid-area: img_style2;
+        grid-column: 1/-1;
+        grid-row: 4;
+        width: 200px;
+        padding-top: 20px;
+        padding-bottom: 10px
+    }
+    .img_style {
+        width: 200px;
+    }
+    .img_style1 {
+        width: 200px;
+    }
+    .uzskait {
+        grid-area: uzskait;
+        grid-column: 1/-1;
+        grid-row: 5
+    }
+    .kajene {
+        grid-area: kajene;
+        grid-column: 1/-1;
+        grid-row: 6;
+    }
+}
+
+@media all and (max-width:900px) {
+    #menu_bar1 a {
+        margin-left: 10px;
+        margin-right: 10px;
+        font-family: 'Oswald', sans-serif;
+        font-size: 15px;
+        border: 1px solid #CBC8C8;
+        border-left: none;
+        border-bottom: none;
+        border-top: none;
+        padding-left: 0px;
+        padding-right: 40px
+    }
+    .menu_bar1 {
+
+        font-size: 17px;
+        margin-top: 25px;
+        text-align: center;
+        max-height: 200px;
+    }
+}
+
+.header_1 {
+    max-height: 150px;
+    background-color: #F8F8F8;
+    grid-area: header_1;
+    grid-column: 2/5;
+
+}
+
+.saturs {
+    grid-area: saturs;
+    background-color: #F8F8F8;
+    grid-column: 2/5;
+}
+
+.kajene {
+    grid-area: kajene;
+    background-color: #F8F8F8;
+    height: 100px;
+    grid-column: 2/5;
+}
+
+.wrapper2 {
+    display: grid;
+    background-color: #5C5A5B;
+    grid-template-columns: 2fr 4.5fr 4.5fr 2fr;
+    grid-template-rows: 0.2fr 1fr 1fr 0.5fr;
+    grid-template-areas: "header_11 header_11 header_11 header_11" "profils profils profils profils" "profils profils profils profils" "kajene1 kajene1 kajene1 kajene1"
+}
+
+.profils {
+    grid-area: profils;
+    background-color: #F8F8F8;
+    grid-column: 2/4;
+}
+
+.profile_pic {
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.kajene1 {
+    grid-area: kajene1;
+    background-color: #F8F8F8;
+    grid-column: 2/4;
+    grid-row: 4;
+}
+
+.header_11 {
+    max-height: 150px;
+    background-color: #F8F8F8;
+    grid-area: header_11;
+    grid-column: 2/4;
+}
+
+@media all and (max-width:700px) {
+
+    .wrapper2 {
+        display: grid;
+        background-color: #F8F8F8;
+        grid-template-columns: 4.5fr 4.5fr;
+        grid-template-rows: 0.2fr 1fr 1fr 0.5fr;
+        grid-template-areas: "header_11 header_11" "profils profils" "profils profils" "kajene1 kajene1"
+    }
+    .header_11 {
+        grid-area: header_11;
+        grid-column: 1/-1;
+        grid-row: 1
+    }
+    .profils {
+        grid-area: profils;
+        grid-column: 1/-1;
+    }
+    .kajene {
+        grid-area: kajene;
+        grid-column: 1/-1;
+
+    }
+
+
+    .wrapper1 {
+        display: grid;
+        background-color: #5C5A5B;
+        grid-template-columns: 3fr 3fr 3fr;
+        grid-template-rows: 1fr 1r 1fr 1fr;
+        grid-template-areas: "header_1 header_1 header_1 " " saturs saturs saturs" "saturs saturs saturs " " kajene kajene kajene"
+    }
+    .header_1 {
+        grid-area: header_1;
+        grid-column: 1/-1;
+        grid-row: 1
+    }
+    .saturs {
+        grid-area: saturs;
+        grid-column: 1/-1
+    }
+    .kajene {
+        grid-area: kajene;
+        grid-column: 1/-1;
+    }
+
+}
+
+
+
+
+
+
+
+
+.wrapper3 {
+    display: grid;
+    background-color: #5C5A5B;
+    grid-template-columns: 2fr 3fr 3fr 3fr 2fr;
+    grid-template-rows: 0.2fr 1fr 1fr 1fr 0.5fr;
+    grid-template-areas: "header2 header2 header2 header2 header2" "main_design main_design main_design main_design main_design" "main_design main_design main_design main_design main_design" "main_design main_design main_design main_design main_design" "kajene2 kajene2 kajene2 kajene2 kajene2"
+}
+
+@media all and (max-width:900px) {
+    main.main_design {
+        display: grid;
+        background-color: #F8F8F8;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 0.6fr 1fr 1fr;
+        grid-template-areas: "design design " "flip1 nav_diz " "flip11 flip11"
+    }
+    .design {
+        grid-area: design;
+        grid-column: 1/-1;
+        grid-row: 1;
+    }
+    div.flip1 {
+        grid-area: flip1;
+        grid-column: 1/2;
+        grid-row: 2;
+    }
+    div.flip1 img {
+        width: 80%;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        padding-bottom: 20px
+    }
+    div.flip11 img {
+        width: 80%;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    div.flip {
+        grid-area: flip;
+        grid-column: 1/2;
+        grid-row: 3;
+        display: none
+    }
+    #nav_diz li {
+        text-align: left;
+
+    }
+    #nav_diz {
+        display: block;
+        padding-right: 30px;
+        padding-bottom: 20px
+    }
+
+    #nav_diz a {
+        font-size: 15px
+    }
+    ul#nav_diz {
+        display: block;
+        padding-right: 30px;
+        padding-left: 2px;
+        padding-bottom: 2px
+    }
+}
+
+.backdiz {
+    display: block;
+    position: absolute;
+    margin-left: 10px;
+    padding-top: 10px
+}
+
+@media all and (max-width:700px) {
+    .wrapper3 {
+        display: grid;
+        background-color: #5C5A5B;
+        grid-template-columns: 3fr 3fr;
+        grid-template-rows: 0.2fr 1fr 1fr 1fr 0.5fr;
+        grid-template-areas: "header2 header2" "main_design main_design" "main_design main_design" "main_design main_design " "kajene2 kajene2"
+    }
+
+    .header2 {
+        grid-area: header2;
+        grid-column: 1/-1;
+        grid-row: 1
+    }
+    .main_design {
+        grid-area: main_design;
+        grid-column: 1/-1;
+        grid-row: 2
+    }
+
+    footer.kajene2 {
+        grid-column: 1/3
+    }
+    main.main_design {
+        grid-column: 1/-1
+    }
+    header.header2 {
+        grid-column: 1/3
+    }
+
+    div.wrapper4 {
+        display: grid;
+        background-color: #F8F8F8;
+        grid-template-columns: 3fr 3fr 3fr;
+        grid-template-rows: 0.1fr 1fr 0.1fr;
+        grid-template-areas: "dizainal dizainal dizainal " "maindiz maindiz maindiz " "kajene kajene kajene "
+    }
+    main.maindiz {
+        grid-area: maindiz;
+        grid-column: 1/-1;
+        grid-row: 2
+    }
+    header.dizainal {
+        grid-area: dizainal;
+        grid-column: 1/-1;
+        display: block;
+        padding-bottom: 15px
+    }
+    .backdiz {
+        display: block;
+        position: absolute;
+        margin-left: 5px;
+        padding-top: 10px
+    }
+    a.backdiz {
+
+        font-size: 20px;
+        display: block;
+        padding-left: 20px
+    }
+
+    div.wrapper5 {
+        display: grid;
+        background-color: #F8F8F8;
+        grid-template-columns: 3fr 3fr 3fr;
+        grid-template-rows: 0.1fr 1fr 0.1fr;
+        grid-template-areas: "dizainal dizainal dizainal " "maindiz1 maindiz1 maindiz1" "kajene kajene kajene "
+    }
+    main.maindiz1 {
+        grid-area: maindiz1;
+        grid-column: 1/-1
+    }
+
+
+    div.wrapper6 {
+        display: grid;
+        background-color: #F8F8F8;
+        grid-template-columns: 3fr 3fr 3fr;
+        grid-template-rows: 0.3fr 1fr 0.3fr;
+        grid-template-areas: "dizainal dizainal dizainal dizainal dizainal" "logomain logomain logomain logomain logomain" "kajene kajene kajene kajene kajene"
+    }
+    main.logomain {
+        grid-area: logomain;
+        grid-column: 1/-1;
+        background-color: #F8F8F8;
+    }
+    footer.kajene {
+        grid-area: kajene;
+        grid-column: 1/-1;
+        height: 100%;
+
+    }
+
+
+    div.wrapper7 {
+        display: grid;
+        background-color: #F8F8F8;
+        grid-template-columns: 3fr 3fr 3fr;
+        grid-template-rows: 0.1fr 1fr 0.1fr;
+        grid-template-areas: "dizainal dizainal dizainal" "logomain1 logomain1 logomain1" "kajene kajene kajene"
+    }
+
+    main.logomain1 {
+        grid-area: logomain1;
+        grid-column: 1/-1;
+        grid-row: 2
+    }
+    footer.kajene {
+        grid-area: kajene;
+        grid-column: 1/-1
+    }
+
+    header.dizainal {
+        grid-area: dizainal;
+        grid-column: 1/-1
+    }
+
+
+    div.wrapper7 {
+        display: grid;
+        background-color: #F8F8F8;
+        grid-template-columns: 3fr 3fr 3fr;
+        grid-template-rows: 0.1fr 1fr 0.1fr;
+        grid-template-areas: "dizainal dizainal dizainal" "foldermain foldermain foldermain" "kajene kajene kajene"
+    }
+    main.foldermain {
+        grid-area: foldermain;
+        grid-column: 1/-1;
+        grid-row: 2
+    }
+
+    footer.kajene {
+        grid-area: kajene;
+        grid-column: 1/-1
+    }
+}
+
+a.backdiz {
+
+    font-size: 20px;
+    display: block;
+    padding-left: 20px
+}
+
+@media all and (max-width:470px) {
+
+    div.wrapper4 {
+        display: grid;
+        background-color: #5C5A5B;
+        grid-template-columns: 3fr;
+        grid-template-rows: 0.1fr 1fr;
+        grid-template-areas: "dizainal" "maindiz" "kajene"
+    }
+    main.maindiz {
+        grid-area: maindiz;
+        grid-column: 1;
+        grid-row: 2
+    }
+    header.dizainal {
+        grid-area: dizainal;
+        grid-column: 1;
+        grid-row: 1
+    }
+    footer.kajene {
+        grid-area: kajene;
+        grid-column: 1/-1;
+        width: 100%;
+    }
+    main.maindiz {
+        display: grid;
+        background-color: #F8F8F8;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.3fr 0.1fr 0.5fr 0.5fr 0.2fr 0.7fr;
+        grid-template-areas: "ievads" "virsr" "moodb" "stils" "paraksts" "shema"
+    }
+    div.ievads {
+        grid-area: ievads;
+        grid-row: 1
+    }
+    div.virsr {
+        grid-area: virsr;
+        grid-row: 2
+    }
+    div.moodb {
+        grid-area: moodb;
+        grid-row: 3
+    }
+    div.stils {
+        grid-area: stils;
+        grid-row: 4
+    }
+    div.paraksts {
+        grid-area: paraksts;
+        grid-row: 5;
+    }
+    div.shema {
+        grid-area: shema;
+        grid-row: 6
+    }
+    h2 {
+        text-align: center
+    }
+    h2.moodboard {
+        text-align: left
+    }
+    div.moodb {
+        display: block;
+        margin-left: auto;
+        margin-right: auto
+    }
+
+    div.wrapper5 {
+        display: grid;
+        background-color: #5C5A5B;
+        grid-template-columns: 3fr;
+        grid-template-rows: 0.1fr 1fr;
+        grid-template-areas: "dizainal" "maindiz1" "kajene"
+    }
+    header.dizainal {
+        grid-area: dizainal;
+        grid-column: 1;
+        grid-row: 1
+    }
+
+    main.maindiz1 {
+        grid-area: maindiz1;
+        grid-column: 1;
+        grid-row: 2
+    }
+    main.maindiz1 {
+        display: grid;
+        grid-template-columns: 3fr;
+        grid-template-rows: 0.5fr 0.3fr 0.5fr 0.5fr;
+        grid-template-areas: "typ" "modern" "font" "helvetica" "layout"
+    }
+    div.typ {
+        grid-area: typ;
+        grid-column: 1;
+        grid-row: 1
+    }
+    div.modern {
+        grid-area: modern;
+        grid-column: 1;
+        grid-row: 2;
+
+    }
+
+    div.font {
+        grid-area: font;
+        grid-column: 1;
+        grid-row: 3
+    }
+    div.helvetica {
+        grid-area: helvetica;
+        grid-column: 1;
+        grid-row: 4
+    }
+    div.layout {
+        grid-area: layout;
+        grid-column: 1;
+        grid-row: 5;
+
+    }
+
+    .helvetica img {
+        display: block;
+        margin: auto
+    }
+
+
+    div.wrapper7 {
+        display: grid;
+        background-color: #5C5A5B;
+        grid-template-columns: 3fr;
+        grid-template-rows: 0.1fr 1fr 0.1fr;
+        grid-template-areas: "dizainal" "foldermain" "kajene"
+    }
+    main.foldermain {
+        grid-area: foldermain;
+        grid-column: 1;
+        grid-row: 2
+    }
+    main.foldermain {
+        display: grid;
+        background-color: #F8F8F8;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.3fr 0.5fr;
+        grid-template-areas: "f1" "f2"
+    }
+
+    div.wrapper6 {
+        display: grid;
+        background-color: #5C5A5B;
+        grid-template-columns: 3fr;
+        grid-template-rows: 0.1fr 1fr 0.1fr;
+        grid-template-areas: "dizainal" "logomain" "kajene"
+    }
+    main.logomain {
+        grid-area: logomain;
+        grid-column: 1;
+        background-color: #F8F8F8;
+
+    }
+    main.logomain {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas: "logoimg" "parlogo"
+    }
+    div.logoimg {
+        grid-area: logoimg;
+        grid-row: 1
+    }
+
+    div.parlogo {
+        grid-area: parlogo;
+        grid-row: 2
+    }
+}
+
+.main_design {
+    display: grid;
+    background-color: #F8F8F8;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.6fr 1fr 1fr;
+    grid-template-areas: "design design design" "flip1 nav_diz flip" "flip11 flip11 flip11"
+}
+
+#nav_diz {
+    display: block;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px
+}
+
+.flip {
+    grid-area: flip;
+    background-color: #F8F8F8;
+    width: 100%;
+    grid-column: 3/4;
+    grid-row: 2;
+    display: block
+}
+
+.flip {
+    display: block;
+    text-align: left;
+}
+
+.nav_diz {
+    grid-area: nav_diz;
+    background-color: #F8F8F8;
+    grid-column: 2/3;
+    grid-row: 2
+}
+
+.flip11 {
+    grid-area: flip11;
+    background-color: #F8F8F8;
+    width: 100%;
+    padding-top: 10px;
+    grid-column: 2/3;
+    grid-row: 3
+}
+
+.flip11 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.flip1 {
+    grid-area: flip1;
+    background-color: #F8F8F8;
+    width: 100%;
+    grid-column: 1/2;
+    grid-row: 2
+}
+
+.flip1 {
+    display: block;
+    text-align: right
+}
+
+.design {
+    grid-area: design;
+    background-color: #F8F8F8;
+    padding-top: 20px;
+    grid-column: 1/-1;
+    grid-row: 1
+}
+
+.header2 {
+    grid-area: header2;
+    max-height: 150px;
+    background-color: #F8F8F8;
+    grid-column: 2/5
+}
+
+.main_design {
+    grid-area: main_design;
+    background-color: #F8F8F8;
+    grid-column: 2/5
+}
+
+.kajene2 {
+    grid-area: kajene2;
+    background-color: #F8F8F8;
+    grid-column: 2/5;
+    grid-row: 5
+}
+
+.wrapper4 {
+    display: grid;
+    background-color: #5C5A5B;
+    grid-template-columns: 2fr 3fr 3fr 3fr 2fr;
+    grid-template-rows: 0.1fr 1fr 0.1fr;
+    grid-template-areas: "dizainal dizainal dizainal dizainal dizainal" "maindiz maindiz maindiz maindiz maindiz" "kajene kajene kajene kajene kajene"
+}
+
+footer.kajene {
+    grid-area: kajene;
+    grid-column: 2/-2;
+    grid-row: 3;
+    height: 100%
+}
+
+.dizainal {
+    grid-area: dizainal;
+    background-color: #F8F8F8;
+    height: 100%;
+    grid-column: 2/5;
+    grid-row: 1
+}
+
+.maindiz {
+    grid-area: maindiz;
+    background-color: #F8F8F8;
+    grid-column: 2/5;
+    grid-row-start: 2
+}
+
+.maindiz {
+    display: grid;
+    background-color: #F8F8F8;
+    grid-template-columns: 1fr 0.5fr 1fr;
+    grid-template-rows: 0.3fr 0.5fr 0.5fr 0.7fr;
+    grid-template-areas: "ievads ievads ievads" "virsr moodb moodb" "stils stils stils" "paraksts shema shema"
+}
+
+.shema {
+    width: 100%
+}
+
+.skaidr {
+    text-align: justify;
+}
+
+.ievads {
+    grid-area: ievads;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 5px;
+    grid-column: 1/-1;
+    grid-row: 1
+}
+
+.stils {
+    grid-area: stils;
+    grid-column: 1/-1;
+    grid-row: 3;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.moodb {
+    grid-area: moodb;
+    grid-column: 2/4;
+    grid-row: 2;
+    display: block;
+
+}
+
+.virsr {
+    grid-area: virsr;
+    grid-column: 1;
+    grid-row: 2;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.paraksts {
+    grid-area: paraksts;
+    grid-column: 1/2;
+    grid-row: 4;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.shema {
+    grid-area: shema;
+    grid-column: 2/4;
+    grid-row: 4;
+    display: block;
+    align-self: center;
+    padding-top: 15px
+}
+
+.shema img {
+    width: 85%;
+    border: 0.5px solid #CBC8C8
+}
+
+.moodb img {
+    width: 90%;
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    padding-right: 20px
+}
+
+.moodboard {
+    text-align: left;
+    display: block;
+    width: 100%;
+}
+
+.backdiz {
+    color: #61605F;
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    text-decoration: none
+}
+
+.maindiz1 {
+    display: grid;
+    background-color: #F8F8F8;
+    border: 2px
+}
+
+.wrapper5 {
+    display: grid;
+    background-color: #5C5A5B;
+    grid-template-columns: 2fr 3fr 3fr 3fr 2fr;
+    grid-template-rows: 0.1fr 1fr 0.1fr;
+    grid-template-areas: "dizainal dizainal dizainal dizainal dizainal" "maindiz1 maindiz1 maindiz1 maindiz1 maindiz1" "kajene kajene kajene kajene kajene"
+}
+
+.maindiz1 {
+    grid-area: maindiz1;
+    grid-column: 2/5
+}
+
+.maindiz1 {
+    display: grid;
+    grid-template-columns: 3fr 1.5fr 3fr;
+    grid-template-rows: 0.5fr 0.3fr 1fr;
+    grid-template-areas: "typ typ modern" "font font font" "helvetica helvetica layout"
+}
+
+.font {
+    grid-area: font;
+    grid-column: 1/-1;
+    grid-row: 2;
+    padding-right: 20px;
+    padding-left: 20px;
+
+}
+
+.modern {
+    grid-area: modern;
+    grid-column: 3/4;
+    grid-row: 1;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 20px
+}
+
+.typ {
+    grid-area: typ;
+    grid-column: 1/3;
+    grid-row: 1;
+    display: block;
+    align-self: center;
+}
+
+.typ img {
+    width: 90%;
+    padding-top: 50px
+}
+
+.helvetica {
+    grid-area: helvetica;
+    grid-column: 1/3;
+    grid-row: 3;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.helvetica img {
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.layout {
+    grid-area: layout;
+    grid-column: 3/4;
+    grid-row: 3;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+img.pictures {
+    display: block;
+    padding-top: 2px;
+    align-self: center;
+}
+
+
+.wrapper6 {
+    display: grid;
+    background-color: #5C5A5B;
+    grid-template-columns: 2fr 3fr 3fr 3fr 2fr;
+    grid-template-rows: 0.3fr 1fr 0.3fr;
+    grid-template-areas: "dizainal dizainal dizainal dizainal dizainal" "logomain logomain logomain logomain logomain" "kajene kajene kajene kajene kajene"
+}
+
+.logomain {
+    grid-area: logomain;
+    grid-column: 2/5;
+    background-color: #F8F8F8;
+
+}
+
+.logomain {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "logoimg parlogo"
+}
+
+.logoimg {
+    grid-area: logoimg;
+    grid-column: 1;
+    background-color: #F8F8F8;
+}
+
+.logoimg img {
+    width: 90%;
+    display: block;
+    margin: auto;
+    padding-top: 20px
+}
+
+.parlogo {
+    grid-area: parlogo;
+    grid-column: 2;
+    background-color: #F8F8F8;
+}
+
+div.parlogo {
+    display: block;
+    padding-right: 20px;
+    padding-top: 10px
+}
+
+.wrapper7 {
+    display: grid;
+    background-color: #5C5A5B;
+    grid-template-columns: 2fr 3fr 3fr 3fr 2fr;
+    grid-template-rows: 0.1fr 1fr 0.1fr;
+    grid-template-areas: "dizainal dizainal dizainal dizainal dizainal" "logomain1 logomain1 logomain1 logomain1 logomain1" "kajene kajene kajene kajene kajene"
+}
+
+.kajene {
+    grid-area: kajene;
+    grid-column: 2/5;
+    grid-row: 3;
+    background-color: #F8F8F8;
+}
+
+.dizainal {
+    grid-area: dizainal;
+    grid-column: 2/5;
+    grid-row: 1
+}
+
+.logomain1 {
+    grid-area: logomain1;
+    grid-column: 2/5;
+    grid-row: 2
+}
+
+.logomain1 {
+    display: grid;
+    background-color: #F8F8F8;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.3fr 0.5fr 1fr;
+    grid-template-areas: "as200 as200" "as450 as450" "as700 as700"
+}
+
+.as200 {
+    grid-area: as200;
+    grid-column: 1/-1;
+    grid-row: 1;
+    display: block;
+    align-self: center;
+}
+
+.as450 {
+    grid-area: as450;
+    grid-column: 1/-1;
+    grid-row: 2;
+    display: block;
+    align-self: center;
+}
+
+.as700 {
+    grid-area: as700;
+    grid-column: 1/-1;
+    grid-row: 3;
+    display: block;
+    align-self: center;
+}
+
+p.assets {
+    text-align: center;
+    padding-top: 10px
+}
+
+.as200 img,
+.as450 img,
+.as700 img {
+    width: 100%;
+
+}
+
+.wrapper7 {
+    display: grid;
+    background-color: #5C5A5B;
+    grid-template-columns: 2fr 3fr 3fr 3fr 2fr;
+    grid-template-rows: 0.1fr 1fr 0.1fr;
+    grid-template-areas: "dizainal dizainal dizainal dizainal dizainal" "foldermain foldermain foldermain foldermain foldermain" "kajene kajene kajene kajene kajene"
+}
+
+.foldermain {
+    grid-area: foldermain;
+    grid-column: 2/5;
+    grid-row: 2
+}
+
+.foldermain {
+    display: grid;
+    background-color: #F8F8F8;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.3fr 0.5fr;
+    grid-template-areas: "f1 f1" "f2 f2"
+}
+
+.f1 {
+    grid-area: f1;
+    grid-column: 1/-1;
+    grid-row: 1
+}
+
+.f2 {
+    grid-area: f2;
+    grid-column: 1/-1;
+    grid-row: 2;
+
+}
+
+.f1 img {
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #DCDCDD
+}
+
+.f2 img {
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #DCDCDD
+}
+
+div.f1,
+div.f2 {
+    padding-top: 10px
+}

@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E.T</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        #bgwoods {
+            background-image: url(city-no-light.png);
+            position: relative;
+            width: 1000px;
+            height: 450px;
+
+        }
+
+        .bgwoods1 {
+            display: none;
+            background-image: url(city-no-light.png);
+            position: relative;
+            width: 1000px;
+            height: 450px;
+
+        }
+
+        #light {
+            background-image: url(city-light.png);
+            position: absolute;
+            width: 1000px;
+            height: 450px;
+            animation: flashlight 5s ease infinite;
+
+        }
+
+        .fadeoutBackground {
+            animation: fadeOutBack forwards 1s ease 1;
+        }
+
+        @keyframes fadeOutBack {
+            0% {
+                opacity: 1;
+            }
+            100% {
+                opacity: 0;
+            }
+        }
+
+        @keyframes flashlight {
+            0% {
+                opacity: 1;
+            }
+            15% {
+                opacity: 0;
+            }
+            40% {
+                opacity: 1;
+            }
+            55% {
+                opacity: 0;
+            }
+            74% {
+                opacity: 1;
+            }
+            92% {
+                opacity: 0;
+            }
+        }
+
+        #title {
+            background-image: url(title.png);
+            position: absolute;
+            width: 1000px;
+            height: 450px;
+            animation: flash 3s linear;
+
+
+        }
+
+        #title:hover {
+            cursor: pointer;
+        }
+
+
+        .guyet {
+            background-image: url(guyet.png);
+            position: absolute;
+            width: 188px;
+            height: 151px;
+            top: 275px;
+            left: -160px;
+            animation: cycle 6s linear;
+            animation-fill-mode: forwards;
+            animation-delay: 5s;
+
+        }
+
+        .guyet1 {
+            display: none;
+            background-image: url(guyet.png);
+            position: absolute;
+            width: 188px;
+            height: 151px;
+            top: 275px;
+            left: 670px;
+            animation: cycleoff 2s linear;
+            animation-delay: 2s;
+            animation-fill-mode: forwards;
+
+
+        }
+
+        @keyframes cycleoff {
+            from {
+                left: 670px;
+            }
+            to {
+                left: 1200px;
+            }
+        }
+
+        .guyet2cliff {
+            display: none;
+            background-image: url(guyetcliff.png);
+            position: absolute;
+            width: 150px;
+            height: 116px;
+            top: 224px;
+            left: -160px;
+            animation: cyclecliff 3s linear;
+            animation-fill-mode: forwards;
+            z-index: 10;
+
+
+
+        }
+
+        @keyframes cyclecliff {
+            from {
+                left: -160px;
+            }
+            to {
+                left: 433px;
+            }
+
+        }
+
+        .guy1cliff {
+            background-image: url(guy01cliff.png);
+            position: absolute;
+            width: 101px;
+            height: 138px;
+            bottom: 11px;
+
+            left: -60px;
+            animation: cycle1 6s linear;
+            animation-fill-mode: forwards;
+        }
+
+        .guy2cliff {
+            background-image: url(guy01cliff.png);
+            position: absolute;
+            width: 101px;
+            height: 138px;
+            top: 34px;
+
+
+            left: -79px;
+            animation: cycle1 6s linear;
+            animation-fill-mode: forwards;
+
+        }
+
+
+
+
+        .guyet:hover {
+            opacity: 0.5;
+        }
+
+        .guyet2cliff:hover {
+            opacity: 0.5;
+        }
+
+        .guy1 {
+            background-image: url(guy01.png);
+            position: absolute;
+            width: 147px;
+            height: 200px;
+            bottom: 11px;
+
+            left: -180px;
+            animation: cycle1 6s linear;
+            animation-fill-mode: forwards;
+        }
+
+        .guy2 {
+            background-image: url(guy01.png);
+            position: absolute;
+            width: 147px;
+            height: 200px;
+
+
+            left: -120px;
+            animation: cycle1 6s linear;
+            animation-fill-mode: forwards;
+        }
+
+
+        @keyframes cycle {
+            from {
+                left: -160px;
+            }
+            to {
+                left: 670px;
+            }
+
+        }
+
+
+
+        @keyframes flash {
+
+            0% {
+                opacity: 0;
+            }
+            30% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+
+        #title.title1 {
+            background-image: url(title.png);
+            visibility: visible;
+            position: absolute;
+            width: 1000px;
+            height: 450px;
+            animation: disa 2s linear;
+            animation-fill-mode: forwards;
+
+
+
+
+        }
+
+        @keyframes disa {
+            0% {
+                opacity: 1;
+            }
+            50% {
+                opacity: 1;
+            }
+            100% {
+                opacity: 0;
+            }
+        }
+
+        #bgwoods.closeupi {
+            background-image: url(closeup.png);
+            animation: closeup 2s steps(14) infinite;
+            position: absolute;
+            width: 1000px;
+            height: 450px;
+        }
+
+        @keyframes closeup {
+            to {
+                background-position: -13993px 0px;
+
+            }
+
+        }
+
+        .fadeinBackground {
+            animation: fadeInBack forwards 1s ease 1;
+        }
+
+        @keyframes fadeInBack {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+
+        }
+
+        .car {
+            display: none;
+            background-image: url(car.png);
+            position: absolute;
+            width: 303px;
+            height: 150px;
+            bottom: 40px;
+            animation: ride 2s linear;
+            animation-fill-mode: forwards;
+        }
+
+        .car:hover {
+            cursor: pointer;
+        }
+
+        @keyframes ride {
+            from {
+                left: -160px;
+            }
+            to {
+                left: 120px;
+            }
+
+        }
+
+        .cliff {
+            display: none;
+            background-image: url(no-light-woods.png);
+            position: relative;
+            width: 1000px;
+            height: 450px;
+
+        }
+
+        .trees {
+            display: none;
+            background-image: url(wood-light.png);
+            position: absolute;
+            width: 1000px;
+            height: 450px;
+            bottom: 1px;
+        }
+
+        .car1 {
+            display: none;
+            background-image: url(car.png);
+            position: absolute;
+            width: 303px;
+            height: 150px;
+            bottom: 60px;
+            left: -300px;
+            animation: ride1 2s linear;
+            animation-fill-mode: forwards;
+            animation-delay: 2.5s;
+        }
+
+        @keyframes ride1 {
+            from {
+                left: -300px;
+            }
+            to {
+                left: 40px;
+            }
+        }
+
+        .et {
+            display: none;
+            background-image: url(et-finger-background.png);
+            width: 1000px;
+            height: 450px;
+            position: relative;
+        }
+
+        .fingeroff {
+            background-image: url(et-finger-no-light.png);
+            display: none;
+            position: absolute;
+            width: 200px;
+            height: 300px;
+            z-index: 10;
+            left: 565px;
+            bottom: -12px;
+
+        }
+
+        .fingeroff:hover {
+            opacity: 0.5;
+        }
+
+        .fingeron {
+            background-image: url(et-finger.png);
+            display: none;
+            position: absolute;
+            width: 300px;
+            height: 500px;
+            z-index: 10;
+            left: 520px;
+            bottom: -112px;
+
+        }
+
+        .fingeron:hover {
+            opacity: 0.5;
+            cursor: pointer;
+        }
+
+        .guyet3cliff {
+            display: none;
+            background-image: url(guyetcliff.png);
+            position: absolute;
+            width: 150px;
+            height: 116px;
+            top: 200px;
+            left: 420px;
+            z-index: 10;
+
+        }
+
+        .guyet3cliff:hover {
+            opacity: 0.5;
+            cursor: pointer;
+        }
+
+        .guy4cliff {
+            display: none;
+            background-image: url(guy01cliff.png);
+            position: absolute;
+            width: 101px;
+            height: 138px;
+            bottom: 65px;
+            left: 373px;
+
+        }
+
+        .guy4cliff:hover {
+            opacity: 0.5;
+            cursor: pointer;
+        }
+
+
+        .guy5cliff {
+            display: none;
+            background-image: url(guy01cliff.png);
+            position: absolute;
+            width: 101px;
+            height: 138px;
+            bottom: 127px;
+            left: 354px;
+
+
+
+        }
+
+        .guy5cliff:hover {
+            opacity: 0.5;
+            cursor: pointer;
+        }
+
+        .carcliff {
+            display: none;
+            background-image: url(car.png);
+            position: absolute;
+            width: 303px;
+            height: 150px;
+            bottom: 60px;
+            left: 40px;
+        }
+
+        .etmoveTo30 {
+            animation: etmoveTo30 2s ease-out;
+            animation-fill-mode: forwards;
+        }
+
+        @keyframes etmoveTo30 {
+            0% {
+                top: 200px;
+                left: 420px;
+            }
+            100% {
+                top: 70px;
+                left: 820px;
+            }
+        }
+
+        .fall1 {
+            animation: fall1 2s ease-out;
+            animation-fill-mode: forwards;
+        }
+
+        @keyframes fall1 {
+            0% {
+                bottom: 65px;
+                left: 373px;
+            }
+            50% {
+                left: 650px;
+            }
+            100% {
+                bottom: -100px;
+                left: 900px
+            }
+        }
+
+        .fall2 {
+            animation: fall2 2s ease-out;
+            animation-fill-mode: forwards;
+        }
+
+        @keyframes fall2 {
+            0% {
+                bottom: 127px;
+                left: 354px;
+            }
+            60% {
+                left: 700px;
+            }
+            100% {
+                bottom: -100px;
+                left: 1000px;
+            }
+        }
+
+        #scene {
+            display: none;
+            position: relative;
+            background-image: url(Untitled-4.png);
+            background-repeat: no-repeat;
+            width: 1000px;
+            height: 450px;
+        }
+
+
+        #bike {
+            display: none;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+
+        .fly {
+            animation: fly 7s ease-out infinite;
+            animation-fill-mode: forwards;
+        }
+
+        @keyframes fly {
+            0% {
+                transform: translate(10px, 200px);
+            }
+            7% {
+                transform: translate(60px, 140px);
+            }
+            15% {
+                transform: translate(120px, 60px);
+            }
+            22% {
+                transform: translate(200px, 190px);
+            }
+            30% {
+                transform: translate(265px, 135px);
+            }
+            38% {
+                transform: translate(375px, 80px);
+            }
+            48% {
+                transform: translate(490px, 50px);
+            }
+            56% {
+                transform: translate(580px, 90px);
+            }
+            64% {
+                transform: translate(650px, 140px);
+            }
+            75% {
+                transform: translate(720px, 200px);
+            }
+            85% {
+                transform: translate(760px, 250px);
+            }
+            90% {
+                transform: translate(1000000px, 1000000px);
+            }
+            95% {
+                transform: translate(100000px, 1000000px);
+            }
+            100% {
+                transform: translate(100000px, 100000px);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div id="bgwoods">
+        <div id="light"></div>
+        <div id="title"></div>
+        <div class="guyet">
+            <div class="guy1"></div>
+            <div class="guy2"></div>
+        </div>
+        <div class="bgwoods1"> </div>
+        <div class="guyet1">
+            <div class="guy1"></div>
+            <div class="guy2"></div>
+        </div>
+        <div class="car"> </div>
+        <div class="cliff"> </div>
+
+        <div class="guyet2cliff">
+            <div class="guy1cliff"></div>
+            <div class="guy2cliff"></div>
+        </div>
+        <div class="trees"> </div>
+        <div class="car1"></div>
+
+        <div class="et"> </div>
+        <div class="fingeroff"> </div>
+        <div class="fingeron"> </div>
+        <div class="guyet3cliff"> </div>
+        <div class="guy4cliff"> </div>
+        <div class="guy5cliff"> </div>
+        <div class="carcliff"> </div>
+        <div id="scene"><img id="bike" class="fly" src="bike.png" alt="bike"></div>
+
+        <audio id="guystalking">
+            <source src="arethepolice.mp3" type="audio/mp3">
+        </audio>
+        <audio id="fuck">
+            <source src="ah-fuck.mp3" type="audio/mp3">
+        </audio>
+        <audio id="nights" autoplay="autoplay" loop="loop">
+            <source src="night_sounds.mp3" type="audio/wav">
+        </audio>
+        <audio id="police">
+            <source src="police.mp3" type="audio/mp3">
+        </audio>
+        <audio id="love">
+            <source src="Leonard%20Cohen%20-%20Aint%20No%20Cure%20For%20Love.mp3" type="audio/mp3">
+        </audio>
+        <audio id="woho">
+            <source src="woohoo.wav" type="audio/wav">
+        </audio>
+        <audio id="ohno">
+            <source src="oh-no.wav" type="audio/mp3">
+        </audio>
+        <audio id="ouch">
+            <source src="ouch.wav" type="audio/mp3">
+        </audio>
+        <audio id="wahoo">
+            <source src="wahoo.wav" type="audio/mp3">
+        </audio>
+        <audio id="glow">
+            <source src="shooting_star-Mike_Koenig-1132888100.mp3" type="audio/mp3">
+        </audio>
+
+
+
+
+
+    </div>
+    <script src="et.js">
+        
+    </script>
+
+</body>
+
+</html>
